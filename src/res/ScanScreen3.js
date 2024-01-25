@@ -395,7 +395,7 @@ class ScanScreen2 extends Component {
           <View style={{marginLeft: 12}}>
             <View style={styles.row}>
               <View style={{alignSelf: 'center'}}>
-                <Text style={styles.textBold}>N° de rollo: </Text>
+                <Text style={styles.textBold}>VIN: </Text>
               </View>
               <Input
                 ref={this.input3}
@@ -535,7 +535,7 @@ class ScanScreen2 extends Component {
             </View>
             <View style={{flexDirection: 'row'}}>
               <View style={{alignSelf: 'center'}}>
-                <Text style={styles.textBold}>Peso:</Text>
+                <Text style={styles.textBold}>Comentarios:</Text>
               </View>
               <Input
                 ref={this.input2}
